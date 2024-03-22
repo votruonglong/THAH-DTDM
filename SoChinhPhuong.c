@@ -19,9 +19,7 @@ int dem_so_chinh_phuong(int n) {
 }
 
 int main() {
-    int n;
-    printf("Nhap so nguyen duong n: ");
-    scanf("%d", &n);
+    int n = 50;
     printf("Cac so chinh phuong nho hon %d la: ", n);
     int so_luong = dem_so_chinh_phuong(n);
     printf("Tong so chinh phuong: %d\n", so_luong);
